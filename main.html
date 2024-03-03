@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dog Adoption Application  </title>
+	<link rel="stylesheet" href="styles.css">
+	<title>Dog Adoption Application</title>
 </head>
+
 <body>
-  <h1 align="center">Dog Adoption Application</h1>
-  <form>
-<label for="name">Name</label>
-<input type="text" id="name" placeholder="Name"/>
-<br>
-<label for="phone">Phone Number</label>
-<input type="text" id="phone" placeholder="Phone Number"/>
-<br>
-<label for="address">Address</label>
-<input type="text" id="address" placeholder="Address"/>
-<br>
-<label for="checkbox">Have you ever lived with a Dog before?</label>
-<input type="checkbox" id="checkbox"/>
-<br>
-<label for="multiSelect">Please select your preferred breeds:</label>
-<select multiple id="multiSelect">
-<option>Labrador</option>
-<option>German Shepherd</option>
-<option>Bulldog</option>
-</select>
-<br>
-<label for="submit">Submit</label>
-<input type="submit" id="submit"/>
-</form>
+	<header>
+		<h1>Dog Adoption Application</h1>
+	</header>
+	<main>
+		<form action="mailto:swap95nil@gmail.com" method="post">
+			<input type="text" id="name" placeholder="Name">
+			<br><br>
+			<input type="text" id="phone" placeholder="Phone Number">
+			<br><br>
+			<input type="text" id="address" placeholder="Address">
+			<br><br>
+			<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+			<label for="checkbox">Have you ever lived with a Dog before?</label>
+			<br><br>
+			<label for="multiselection">Please select your preferred breeds:</label>
+			<select name=" preferred breeds" id="multiSelect">
+				<option value="breed1">breed1</option>
+				<option value="breed2">breed2</option>
+				<option value="breed3">breed3</option>
+			</select>
+			<br><br>
+			<input type="submit" id="submit" value="Submit">
+			<!-- <button type="submit" id="submit" value="Submit">Submit</button> -->
+		</form>
+	</main>
+	<footer>
+
+	</footer>
+	<!-- the entire body must be written by student -->
+	<script type="text/javascript" src="./script.js">
+	</script>
+
 </body>
+
 </html>
